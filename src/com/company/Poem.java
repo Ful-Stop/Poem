@@ -16,5 +16,15 @@ public class Poem {
         System.out.println("Free Verse!");
     }
 
+    public void printTAS(int Syl){
+        for (int j = 1; j <= Syl; j ++){
+            System.out.print("ta");
+            if (j != Syl){
+                System.out.print("-");
+            }
+        }
+        System.out.println("");
+    }
+
 
 }
